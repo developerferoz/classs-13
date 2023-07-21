@@ -1,0 +1,369 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+p{
+    font-family: 'Roboto';
+    font-weight: 300;
+    line-height: 25px;
+}
+
+h3{
+    font-family: 'Roboto';
+    font-weight: 300;
+}
+ul li a{
+    font-family: 'Roboto';
+    font-weight: 300;
+    line-height: 25px;
+}
+
+
+
+
+.header{
+    background-image: url(./photo-1471879832106-c7ab9e0cee23.jpg);
+    position: relative;
+    background-repeat:no-repeat ;
+    height: 500px;
+    background-size: cover;
+    color: white;
+    background-position:bottom;
+    background-attachment: fixed;
+}
+.about{
+    padding-bottom: 70px;
+}
+.about img {
+    position: absolute;
+    height: 101px;
+    border: 2px solid #ff6549;
+    box-shadow: 2px 2px 5px #463838;
+}
+img.img1 {
+    position: absolute;
+    top: 8%;
+    left: 15%;
+}
+.header .menu{
+    position: absolute;
+    top: 20px;
+    left: 550px;
+}
+.header .menu ul{
+    color: white;
+
+}
+.header .menu ul li{
+    display: inline-block;
+
+}
+.header .menu ul li a{
+    display: inline-block;
+    font-style: italic 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 20px 20px;
+
+}
+.header .menu ul li a:hover{
+    color:rgb(245, 132, 34) ;
+}
+.header h1 {
+    display: inline-block;
+    position: absolute;
+    top: 51%;
+    left: 29%;
+    font-size: 45px;
+    font-style: italic;
+    font-weight: 600;
+}
+.header h1::after{
+
+    font: var(--fa-font-solid);
+    content: "\f10d";
+    color: #ef664d;
+    font-size: 40px ;
+    position: absolute;
+    top: -20%;
+    left: -6%;
+}
+.header h1::before{
+    font: var(--fa-font-solid);
+    content: "\f10e";
+    color: #ef664d;
+    font-size: 40px ;
+    position: absolute;
+    top: -20%;
+    left: 101%;
+}
+
+.about{
+    height: 250px;
+    position: relative;
+    margin-bottom:35px ;
+}
+.about img {
+    position: absolute;
+    height: 100px;
+    border: 2px solid #ff6549;
+    top: 64%;
+    left: 30%;
+}
+
+.about .about2 {
+    position: absolute;
+    width: 500px;
+    height: 250px;
+    top: 20%;
+    left: 46%;
+}
+.about .about2 h1 {
+    margin-bottom: 30px;
+    margin-left: 110px;
+    font-weight: 400;
+}
+
+.se {
+    position: relative;
+    height: 400px;
+    background-color: #2e3e4e;
+    color: white;
+    text-align: center;
+    
+}
+h1.head {
+    text-align: center;
+    padding-top: 40px; 
+    color: #ef664d;
+
+}
+
+
+i{
+    padding: 10px;
+    background: #ef664d;
+    border-radius: 5px 15px;
+}
+
+.webdesign {
+    position: absolute;
+    top: 33%;
+    left: 20%;
+}
+.PRINTDESIGN {
+    position: absolute;
+    top: 33%;
+    left: 43%;
+}
+.DEVELOPMENT {
+    position: absolute;
+    top: 33%;
+    left: 68%;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+.DEVELOPMENT a::before{
+    font: var(--fa-font-solid);
+    content: "\f560";
+    color: #ef664d;
+    padding: 5px;
+}
+.PRINTDESIGN a::before{
+    font: var(--fa-font-solid);
+    content: "\f560";
+    color: #ef664d;
+    padding: 5px;
+}
+.webdesign a::before{
+    font: var(--fa-font-solid);
+    content: "\f560";
+    color: #ef664d;
+    padding: 5px;
+}
+
+
+
+
+.about{
+    font-family: "Font as";
+}
+
+
+li{
+    list-style: none;
+}
+.webdesign h3,.PRINTDESIGN h3 ,.DEVELOPMENT h3{
+    font-style: italic;
+    font-weight: 600;
+    margin: 20px 0;
+}
+button {
+    padding: 5px 20px;
+    margin-top: 22px;
+    background: #ef664d;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px 2px rgb(51 50 50)
+}
+.CONTACT{
+    text-align: center;
+}
+.CONTACT h1{
+    margin: 20px 0;
+    font-weight: 400;
+}
+.CONTACT .FORM{
+    display: inline-block;
+}
+.CONTACT .FORM input{
+    border: none;
+    border-bottom:1.5px solid #ff6549;
+    width: 500px;
+    margin-top: 30px;
+}
+.CONTACT .FORM button{
+    margin: 40px;
+    padding:10px 90px;
+    background: #ff6549;
+    border-radius: 5px;
+    box-shadow: 3px 5px 10px rgb(123, 112, 112);
+    border: none;
+    color: white;
+    position: relative;
+    z-index: 1;
+}
+
+.button::before{
+    content: " ";
+    background-color: #562011;
+    position: absolute;
+    border-radius: 5px 0 0 5px;
+    width: 0%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all linear .3s;
+
+}
+
+.button:hover::before{
+    width: 50.25%;
+}
+.button::after{
+    content: " ";
+    background-color: #270a03;
+    border-radius: 0 5px 5px 0;
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    transition: all linear .3s;
+}
+.button:hover::after{
+    width: 50.25%;
+}
+
+.footer h4{
+    background: #2e3e4e;
+    padding: 20px 0;
+    color: white;
+    text-align: center;
+}
+span{
+    color: #ff6549;
+}
+
+/* butoon */
+
+.button1::before{
+    content: " ";
+    background-color: #ece10a;
+    position: absolute;
+    border-radius:5px;
+    width: 0%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    transition: all linear .3s;
+}
+.button1:hover{
+    color: #270a03;
+}
+
+.button1:hover::before{
+    width: 100%;
+}
+
+button.button1{
+    position: relative;
+    z-index: 1;
+    color: white;
+    padding: 10px 20px;
+}
+
+.button2::before{
+    content: " ";
+    background-color: #ece10a;
+    position: absolute;
+    border-radius:5px;
+    width: 100%;
+    height: 0%;
+    top: 0;
+    right:  0;
+    z-index: -1;
+    transition: all linear .3s;
+}
+.button2:hover{
+    color: #270a03;
+}
+
+.button2:hover::before{
+    height: 100%;
+}
+
+button.button2{
+    position: relative;
+    z-index: 1;
+    color: white;
+    padding: 10px 20px;
+}
+
+.button3::before{
+    content: " ";
+    background-color: #ece10a;
+    position: absolute;
+    border-radius: 5px;
+    width: 0%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all linear .3s;
+}
+.button3:hover{
+    color: #270a03;
+}
+
+.button3:hover::before{
+    
+    width: 100%;
+   
+}
+
+button.button3{
+    position: relative;
+    z-index: 1;
+    color: white;
+    padding: 10px 20px;
+}
